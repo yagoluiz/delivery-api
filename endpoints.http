@@ -1,3 +1,10 @@
+### Get partner by id
+
+GET http://localhost:3000/api/v1/partners/5e15139130b67d4c64a0fe43 HTTP/1.1
+content-type: application/json
+
+### Create partner
+
 POST http://localhost:3000/api/v1/partners HTTP/1.1
 content-type: application/json
 

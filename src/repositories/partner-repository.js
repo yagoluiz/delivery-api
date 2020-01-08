@@ -2,6 +2,11 @@
 
 const Partner = require('../models/partner');
 
+const getById = async (id) => {
+    const partner = await Partner.findById(id);
+    return partner;
+};
+
 const getByDocument = async (document) => {
     const partner = await Partner.findOne({
         document: document
@@ -16,6 +21,7 @@ const post = async (data) => {
 };
 
 module.exports = {
+    getById,
     getByDocument,
     post
 };

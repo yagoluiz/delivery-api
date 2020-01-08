@@ -2,6 +2,11 @@
 
 const repository = require('../../../repositories/partner-repository');
 
+const getById = async (id) => {
+    const partner = await repository.getById(id);
+    return partner;
+};
+
 const post = async (data) => {
     const partner = await repository.post({
         tradingName: data.tradingName,
@@ -14,5 +19,6 @@ const post = async (data) => {
 };
 
 module.exports = {
+    getById,
     post
 };
