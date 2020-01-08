@@ -1,0 +1,34 @@
+{
+  "name": "delivery-api",
+  "version": "1.0.0",
+  "description": "Beverage delivery API",
+  "main": "server.js",
+  "scripts": {
+    "start": "node ./bin/server.js",
+    "dev": "nodemon ./bin/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yagoluiz/delivery-api.git"
+  },
+  "keywords": [],
+  "author": "Yago Luiz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yagoluiz/delivery-api/issues"
+  },
+  "homepage": "https://github.com/yagoluiz/delivery-api#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cnpj": "^3.0.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.3.1",
+    "geojson-validation": "^0.2.1",
+    "mongoose": "^5.8.5",
+    "mongoose-geojson-schemas": "^0.11.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
