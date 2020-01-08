@@ -1,0 +1,32 @@
+version: '3'
+
+services:
+    deliveryapi:
+        build: .
+        ports: 
+            - "3000:3000"
+        environment:
+            - MONGO_HOST=mongodb://mongodb:27017/delivery
+        depends_on: 
+            - mongodb
+        networks: 
+            - delivery-network
+    mongodb:
+        image: mongo
+        ports: 
+            - "27017:27017"
+        networks: 
+            - delivery-network
+    mongo_seed:
+        image: mongo
+        volumes: 
+            - ./database:/database
+        command: 
+            /database/import.sh
+        depends_on: 
+            - mongodb
+        networks: 
+            - delivery-network
+networks: 
+    delivery-network:
+        driver: bridge

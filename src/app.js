@@ -2,16 +2,11 @@
 
 const express = require('express');
 const bodyParser = require('body-parser');
-const mongoose = require('mongoose');
+const database = require('./database/mongo-database')
 
 const app = express();
 
-mongoose.connect('mongodb://localhost:27017/delivery',
-    {
-        useNewUrlParser: true,
-        useUnifiedTopology: true,
-        useCreateIndex: true
-    });
+database.connect();
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
