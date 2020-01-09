@@ -2,6 +2,17 @@
 
 const Partner = require('../models/partner');
 
+const getAllPositions = async (long, lat) => {
+    const partners = await Partner
+        .find()
+        .where('coverageArea')
+        .intersects({
+            type: "Point",
+            coordinates: [long, lat]
+        });
+    return partners;
+};
+
 const getById = async (id) => {
     const partner = await Partner.findById(id);
     return partner;
@@ -21,6 +32,7 @@ const post = async (data) => {
 };
 
 module.exports = {
+    getAllPositions,
     getById,
     getByDocument,
     post

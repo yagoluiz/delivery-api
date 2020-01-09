@@ -3,69 +3,74 @@
 GET http://localhost:3000/api/v1/partners/5e15139130b67d4c64a0fe43 HTTP/1.1
 content-type: application/json
 
+### Search partner by coordinates
+
+GET http://localhost:3000/api/v1/partners/-46.6912041/-23.5800766 HTTP/1.1
+content-type: application/json
+
 ### Create partner
 
 POST http://localhost:3000/api/v1/partners HTTP/1.1
 content-type: application/json
 
 {
-   "tradingName": "Adega da Cerveja - Pinheiros",
-   "ownerName":"Zé da Silva",
-   "document":"00.289.684/0001-93",
-   "coverageArea":{
-      "type":"MultiPolygon",
-      "coordinates":[
-         [
+    "tradingName": "Adega da Cerveja - Pinheiros",
+    "ownerName": "Zé da Silva",
+    "document": "00.289.684/0001-93",
+    "coverageArea": {
+        "type": "MultiPolygon",
+        "coordinates": [
             [
-               [
-                  30,
-                  20
-               ],
-               [
-                  45,
-                  40
-               ],
-               [
-                  10,
-                  40
-               ],
-               [
-                  30,
-                  20
-               ]
-            ]
-         ],
-         [
+                [
+                    [
+                        30,
+                        20
+                    ],
+                    [
+                        45,
+                        40
+                    ],
+                    [
+                        10,
+                        40
+                    ],
+                    [
+                        30,
+                        20
+                    ]
+                ]
+            ],
             [
-               [
-                  15,
-                  5
-               ],
-               [
-                  40,
-                  10
-               ],
-               [
-                  10,
-                  20
-               ],
-               [
-                  5,
-                  10
-               ],
-               [
-                  15,
-                  5
-               ]
+                [
+                    [
+                        15,
+                        5
+                    ],
+                    [
+                        40,
+                        10
+                    ],
+                    [
+                        10,
+                        20
+                    ],
+                    [
+                        5,
+                        10
+                    ],
+                    [
+                        15,
+                        5
+                    ]
+                ]
             ]
-         ]
-      ]
-   },
-   "address":{
-      "type":"Point",
-      "coordinates":[
-         -46.57421,
-         -21.785741
-      ]
-   }
+        ]
+    },
+    "address": {
+        "type": "Point",
+        "coordinates": [
+            -46.57421,
+            -21.785741
+        ]
+    }
 }

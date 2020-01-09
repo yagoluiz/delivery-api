@@ -1,9 +1,287 @@
-[
-    {
-        "tradingName": "Adega Osasco",
-        "ownerName": "Ze da Ambev",
-        "document": "02.453.716/000170",
-        "coverageArea": {
+{
+    "type": "GeometryCollection",
+    "geometries": [
+        {
+            "type": "Point",
+            "coordinates": [
+                -43.297337,
+                -23.013538
+            ]
+        },
+        {
+            "type": "Point",
+            "coordinates": [
+                -49.33425,
+                -25.380995
+            ]
+        },
+        {
+            "type": "Point",
+            "coordinates": [
+                -38.59826,
+                -3.774186
+            ]
+        },
+        {
+            "type": "Point",
+            "coordinates": [
+                -38.495586,
+                -3.809936
+            ]
+        },
+        {
+            "type": "Point",
+            "coordinates": [
+                -43.432034,
+                -22.747707
+            ]
+        },
+        {
+            "type": "Point",
+            "coordinates": [
+                -46.57421,
+                -21.785742
+            ]
+        },
+        {
+            "type": "Point",
+            "coordinates": [
+                -46.66771,
+                -23.659363
+            ]
+        },
+        {
+            "type": "Point",
+            "coordinates": [
+                -49.192204,
+                -25.378815
+            ]
+        },
+        {
+            "type": "Point",
+            "coordinates": [
+                -46.588654,
+                -23.709635
+            ]
+        },
+        {
+            "type": "Point",
+            "coordinates": [
+                -46.693768,
+                -23.569365
+            ]
+        },
+        {
+            "type": "Point",
+            "coordinates": [
+                -43.931644,
+                -19.934
+            ]
+        },
+        {
+            "type": "Point",
+            "coordinates": [
+                -46.474983,
+                -23.610245
+            ]
+        },
+        {
+            "type": "Point",
+            "coordinates": [
+                -46.689537,
+                -23.560505
+            ]
+        },
+        {
+            "type": "Point",
+            "coordinates": [
+                -47.896477,
+                -21.99916
+            ]
+        },
+        {
+            "type": "Point",
+            "coordinates": [
+                -43.908115,
+                -19.925934
+            ]
+        },
+        {
+            "type": "Point",
+            "coordinates": [
+                -43.193417,
+                -22.958384
+            ]
+        },
+        {
+            "type": "Point",
+            "coordinates": [
+                -43.945408,
+                -19.860992
+            ]
+        },
+        {
+            "type": "Point",
+            "coordinates": [
+                -46.746166,
+                -23.451038
+            ]
+        },
+        {
+            "type": "Point",
+            "coordinates": [
+                -46.545303,
+                -23.629513
+            ]
+        },
+        {
+            "type": "Point",
+            "coordinates": [
+                -46.703636,
+                -23.630531
+            ]
+        },
+        {
+            "type": "Point",
+            "coordinates": [
+                -43.471878,
+                -23.03035
+            ]
+        },
+        {
+            "type": "Point",
+            "coordinates": [
+                -47.01634,
+                -22.922613
+            ]
+        },
+        {
+            "type": "Point",
+            "coordinates": [
+                -46.788303,
+                -23.644058
+            ]
+        },
+        {
+            "type": "Point",
+            "coordinates": [
+                -46.471943,
+                -23.618591
+            ]
+        },
+        {
+            "type": "Point",
+            "coordinates": [
+                -46.67933,
+                -23.465752
+            ]
+        },
+        {
+            "type": "Point",
+            "coordinates": [
+                -46.40659,
+                -23.492245
+            ]
+        },
+        {
+            "type": "Point",
+            "coordinates": [
+                -46.51637,
+                -23.549246
+            ]
+        },
+        {
+            "type": "Point",
+            "coordinates": [
+                -44.05965,
+                -19.948065
+            ]
+        },
+        {
+            "type": "Point",
+            "coordinates": [
+                -46.582508,
+                -23.563301
+            ]
+        },
+        {
+            "type": "Point",
+            "coordinates": [
+                -46.624012,
+                -23.611038
+            ]
+        },
+        {
+            "type": "Point",
+            "coordinates": [
+                -44.189133,
+                -19.972668
+            ]
+        },
+        {
+            "type": "Point",
+            "coordinates": [
+                -43.961945,
+                -19.927483
+            ]
+        },
+        {
+            "type": "Point",
+            "coordinates": [
+                -49.383804,
+                -20.82054
+            ]
+        },
+        {
+            "type": "Point",
+            "coordinates": [
+                -43.24797,
+                -22.916143
+            ]
+        },
+        {
+            "type": "Point",
+            "coordinates": [
+                -45.853745,
+                -23.182152
+            ]
+        },
+        {
+            "type": "Point",
+            "coordinates": [
+                -46.563892,
+                -23.509415
+            ]
+        },
+        {
+            "type": "Point",
+            "coordinates": [
+                -46.563892,
+                -23.509415
+            ]
+        },
+        {
+            "type": "Point",
+            "coordinates": [
+                -46.772907,
+                -23.528173
+            ]
+        },
+        {
+            "type": "Point",
+            "coordinates": [
+                -67.81702,
+                -9.970223
+            ]
+        },
+        {
+            "type": "Point",
+            "coordinates": [
+                -44.012478,
+                -19.887215
+            ]
+        },
+        {
             "type": "MultiPolygon",
             "coordinates": [
                 [
@@ -124,19 +402,7 @@
                 ]
             ]
         },
-        "address": {
-            "type": "Point",
-            "coordinates": [
-                -43.297337,
-                -23.013538
-            ]
-        }
-    },
-    {
-        "tradingName": "Adega Pinheiros",
-        "ownerName": "Ze da Silva",
-        "document": "04.433.714/0001-44",
-        "coverageArea": {
+        {
             "type": "MultiPolygon",
             "coordinates": [
                 [
@@ -273,19 +539,7 @@
                 ]
             ]
         },
-        "address": {
-            "type": "Point",
-            "coordinates": [
-                -49.33425,
-                -25.380995
-            ]
-        }
-    },
-    {
-        "tradingName": "Adega Sao Paulo",
-        "ownerName": "Pedro Silva",
-        "document": "04666182390",
-        "coverageArea": {
+        {
             "type": "MultiPolygon",
             "coordinates": [
                 [
@@ -418,19 +672,7 @@
                 ]
             ]
         },
-        "address": {
-            "type": "Point",
-            "coordinates": [
-                -38.59826,
-                -3.774186
-            ]
-        }
-    },
-    {
-        "tradingName": "Bar do Ze",
-        "ownerName": "Joao Silva",
-        "document": "04698149428",
-        "coverageArea": {
+        {
             "type": "MultiPolygon",
             "coordinates": [
                 [
@@ -555,19 +797,7 @@
                 ]
             ]
         },
-        "address": {
-            "type": "Point",
-            "coordinates": [
-                -38.495586,
-                -3.809936
-            ]
-        }
-    },
-    {
-        "tradingName": "Bar Legal",
-        "ownerName": "Fernando Silva",
-        "document": "05202839000126",
-        "coverageArea": {
+        {
             "type": "MultiPolygon",
             "coordinates": [
                 [
@@ -620,19 +850,7 @@
                 ]
             ]
         },
-        "address": {
-            "type": "Point",
-            "coordinates": [
-                -43.432034,
-                -22.747707
-            ]
-        }
-    },
-    {
-        "tradingName": "Mercado Pinheiros",
-        "ownerName": "Luiz Santo",
-        "document": "06004905000116",
-        "coverageArea": {
+        {
             "type": "MultiPolygon",
             "coordinates": [
                 [
@@ -721,19 +939,7 @@
                 ]
             ]
         },
-        "address": {
-            "type": "Point",
-            "coordinates": [
-                -46.57421,
-                -21.785742
-            ]
-        }
-    },
-    {
-        "tradingName": "Ze da Ambev",
-        "ownerName": "Ze Legal",
-        "document": "07.710.066/0001-14",
-        "coverageArea": {
+        {
             "type": "MultiPolygon",
             "coordinates": [
                 [
@@ -910,19 +1116,7 @@
                 ]
             ]
         },
-        "address": {
-            "type": "Point",
-            "coordinates": [
-                -46.66771,
-                -23.659363
-            ]
-        }
-    },
-    {
-        "tradingName": "Emporio legal",
-        "ownerName": "Leonardo Cruz",
-        "document": "081.914.699-44",
-        "coverageArea": {
+        {
             "type": "MultiPolygon",
             "coordinates": [
                 [
@@ -1035,19 +1229,7 @@
                 ]
             ]
         },
-        "address": {
-            "type": "Point",
-            "coordinates": [
-                -49.192204,
-                -25.378815
-            ]
-        }
-    },
-    {
-        "tradingName": "Adega Emporio",
-        "ownerName": "Ronaldinho gaucho",
-        "document": "09.444.848/0001-84",
-        "coverageArea": {
+        {
             "type": "MultiPolygon",
             "coordinates": [
                 [
@@ -1136,19 +1318,7 @@
                 ]
             ]
         },
-        "address": {
-            "type": "Point",
-            "coordinates": [
-                -46.588654,
-                -23.709635
-            ]
-        }
-    },
-    {
-        "tradingName": "Adega do Joao",
-        "ownerName": "Messi Pele",
-        "document": "10.144.318/0001-08",
-        "coverageArea": {
+        {
             "type": "MultiPolygon",
             "coordinates": [
                 [
@@ -1281,19 +1451,7 @@
                 ]
             ]
         },
-        "address": {
-            "type": "Point",
-            "coordinates": [
-                -46.693768,
-                -23.569365
-            ]
-        }
-    },
-    {
-        "tradingName": "Joao do Emporio",
-        "ownerName": "Pele Maradona",
-        "document": "10.899.700/0001-13",
-        "coverageArea": {
+        {
             "type": "MultiPolygon",
             "coordinates": [
                 [
@@ -1394,19 +1552,7 @@
                 ]
             ]
         },
-        "address": {
-            "type": "Point",
-            "coordinates": [
-                -43.931644,
-                -19.934
-            ]
-        }
-    },
-    {
-        "tradingName": "Emporio da Cerveja",
-        "ownerName": "Joao Maradona",
-        "document": "11.863.940/0001-20",
-        "coverageArea": {
+        {
             "type": "MultiPolygon",
             "coordinates": [
                 [
@@ -1511,19 +1657,7 @@
                 ]
             ]
         },
-        "address": {
-            "type": "Point",
-            "coordinates": [
-                -46.474983,
-                -23.610245
-            ]
-        }
-    },
-    {
-        "tradingName": "SOS Cerveja",
-        "ownerName": "Daniel Henrique",
-        "document": "15.127.213/0001-56",
-        "coverageArea": {
+        {
             "type": "MultiPolygon",
             "coordinates": [
                 [
@@ -1972,19 +2106,7 @@
                 ]
             ]
         },
-        "address": {
-            "type": "Point",
-            "coordinates": [
-                -46.689537,
-                -23.560505
-            ]
-        }
-    },
-    {
-        "tradingName": "Noiz Cerveja",
-        "ownerName": "Eduardo Pedroso",
-        "document": "15.187.572/0001-07",
-        "coverageArea": {
+        {
             "type": "MultiPolygon",
             "coordinates": [
                 [
@@ -2041,19 +2163,7 @@
                 ]
             ]
         },
-        "address": {
-            "type": "Point",
-            "coordinates": [
-                -47.896477,
-                -21.99916
-            ]
-        }
-    },
-    {
-        "tradingName": "Adega Osasco",
-        "ownerName": "Pele Maradona",
-        "document": "16.572.053/0001-17",
-        "coverageArea": {
+        {
             "type": "MultiPolygon",
             "coordinates": [
                 [
@@ -2334,19 +2444,7 @@
                 ]
             ]
         },
-        "address": {
-            "type": "Point",
-            "coordinates": [
-                -43.908115,
-                -19.925934
-            ]
-        }
-    },
-    {
-        "tradingName": "Adega Pinheiros",
-        "ownerName": "Joao Maradona",
-        "document": "18.293.334/0001-66",
-        "coverageArea": {
+        {
             "type": "MultiPolygon",
             "coordinates": [
                 [
@@ -2435,19 +2533,7 @@
                 ]
             ]
         },
-        "address": {
-            "type": "Point",
-            "coordinates": [
-                -43.193417,
-                -22.958384
-            ]
-        }
-    },
-    {
-        "tradingName": "Bar Nem Tanto",
-        "ownerName": "Daniboy",
-        "document": "20.194.088/0001-37",
-        "coverageArea": {
+        {
             "type": "MultiPolygon",
             "coordinates": [
                 [
@@ -2648,19 +2734,7 @@
                 ]
             ]
         },
-        "address": {
-            "type": "Point",
-            "coordinates": [
-                -43.945408,
-                -19.860992
-            ]
-        }
-    },
-    {
-        "tradingName": "Mercado Pinheiros",
-        "ownerName": "Daniel Henrique",
-        "document": "21.579.095/0001-10",
-        "coverageArea": {
+        {
             "type": "MultiPolygon",
             "coordinates": [
                 [
@@ -2753,19 +2827,7 @@
                 ]
             ]
         },
-        "address": {
-            "type": "Point",
-            "coordinates": [
-                -46.746166,
-                -23.451038
-            ]
-        }
-    },
-    {
-        "tradingName": "Adega Ambev",
-        "ownerName": "Eduardo Pedroso",
-        "document": "21.658.641/0001-08",
-        "coverageArea": {
+        {
             "type": "MultiPolygon",
             "coordinates": [
                 [
@@ -2858,19 +2920,7 @@
                 ]
             ]
         },
-        "address": {
-            "type": "Point",
-            "coordinates": [
-                -46.545303,
-                -23.629513
-            ]
-        }
-    },
-    {
-        "tradingName": "Ze da Ambev",
-        "ownerName": "Eduardo Piroco",
-        "document": "22.15.127.213/0001-56.752/0001-90",
-        "coverageArea": {
+        {
             "type": "MultiPolygon",
             "coordinates": [
                 [
@@ -2963,19 +3013,7 @@
                 ]
             ]
         },
-        "address": {
-            "type": "Point",
-            "coordinates": [
-                -46.703636,
-                -23.630531
-            ]
-        }
-    },
-    {
-        "tradingName": "Emporio legal",
-        "ownerName": "Ze da Ambev",
-        "document": "22512343000178",
-        "coverageArea": {
+        {
             "type": "MultiPolygon",
             "coordinates": [
                 [
@@ -3020,19 +3058,7 @@
                 ]
             ]
         },
-        "address": {
-            "type": "Point",
-            "coordinates": [
-                -43.471878,
-                -23.03035
-            ]
-        }
-    },
-    {
-        "tradingName": "Emporio Pinheiros",
-        "ownerName": "Ze da Ambev",
-        "document": "22745914/0001-14",
-        "coverageArea": {
+        {
             "type": "MultiPolygon",
             "coordinates": [
                 [
@@ -3097,19 +3123,7 @@
                 ]
             ]
         },
-        "address": {
-            "type": "Point",
-            "coordinates": [
-                -47.01634,
-                -22.922613
-            ]
-        }
-    },
-    {
-        "tradingName": "Adega Emporio",
-        "ownerName": "Ze da Silva",
-        "document": "23.254.882/0001-17",
-        "coverageArea": {
+        {
             "type": "MultiPolygon",
             "coordinates": [
                 [
@@ -3194,19 +3208,7 @@
                 ]
             ]
         },
-        "address": {
-            "type": "Point",
-            "coordinates": [
-                -46.788303,
-                -23.644058
-            ]
-        }
-    },
-    {
-        "tradingName": "Adega do Joao",
-        "ownerName": "Pedro Silva",
-        "document": "23.459.215/0001-70",
-        "coverageArea": {
+        {
             "type": "MultiPolygon",
             "coordinates": [
                 [
@@ -3431,19 +3433,7 @@
                 ]
             ]
         },
-        "address": {
-            "type": "Point",
-            "coordinates": [
-                -46.471943,
-                -23.618591
-            ]
-        }
-    },
-    {
-        "tradingName": "Joao do Emporio",
-        "ownerName": "Joao Silva",
-        "document": "23.680.471/0001-93",
-        "coverageArea": {
+        {
             "type": "MultiPolygon",
             "coordinates": [
                 [
@@ -3528,19 +3518,7 @@
                 ]
             ]
         },
-        "address": {
-            "type": "Point",
-            "coordinates": [
-                -46.67933,
-                -23.465752
-            ]
-        }
-    },
-    {
-        "tradingName": "Emporio da Cerveja",
-        "ownerName": "Fernando Silva",
-        "document": "23.934.782/0001-31",
-        "coverageArea": {
+        {
             "type": "MultiPolygon",
             "coordinates": [
                 [
@@ -3633,19 +3611,7 @@
                 ]
             ]
         },
-        "address": {
-            "type": "Point",
-            "coordinates": [
-                -46.40659,
-                -23.492245
-            ]
-        }
-    },
-    {
-        "tradingName": "Behoppy",
-        "ownerName": "Luiz Santo",
-        "document": "24.522.169/0001-70",
-        "coverageArea": {
+        {
             "type": "MultiPolygon",
             "coordinates": [
                 [
@@ -3682,19 +3648,7 @@
                 ]
             ]
         },
-        "address": {
-            "type": "Point",
-            "coordinates": [
-                -46.51637,
-                -23.549246
-            ]
-        }
-    },
-    {
-        "tradingName": "Noiz Cerveja",
-        "ownerName": "Ze Legal",
-        "document": "25.039.008/0001-92",
-        "coverageArea": {
+        {
             "type": "MultiPolygon",
             "coordinates": [
                 [
@@ -3855,19 +3809,7 @@
                 ]
             ]
         },
-        "address": {
-            "type": "Point",
-            "coordinates": [
-                -44.05965,
-                -19.948065
-            ]
-        }
-    },
-    {
-        "tradingName": "Ze Repoe",
-        "ownerName": "Leonardo Cruz",
-        "document": "25.175.276/0001-31",
-        "coverageArea": {
+        {
             "type": "MultiPolygon",
             "coordinates": [
                 [
@@ -4004,19 +3946,7 @@
                 ]
             ]
         },
-        "address": {
-            "type": "Point",
-            "coordinates": [
-                -46.582508,
-                -23.563301
-            ]
-        }
-    },
-    {
-        "tradingName": "Adega Sao Paulo",
-        "ownerName": "Rai da Silva",
-        "document": "26.091.851/0001-80",
-        "coverageArea": {
+        {
             "type": "MultiPolygon",
             "coordinates": [
                 [
@@ -4097,19 +4027,7 @@
                 ]
             ]
         },
-        "address": {
-            "type": "Point",
-            "coordinates": [
-                -46.624012,
-                -23.611038
-            ]
-        }
-    },
-    {
-        "tradingName": "Bar do Ze",
-        "ownerName": "Ronaldinho gaucho",
-        "document": "26.617.478/0001-59",
-        "coverageArea": {
+        {
             "type": "MultiPolygon",
             "coordinates": [
                 [
@@ -4182,19 +4100,7 @@
                 ]
             ]
         },
-        "address": {
-            "type": "Point",
-            "coordinates": [
-                -44.189133,
-                -19.972668
-            ]
-        }
-    },
-    {
-        "tradingName": "Bar Legal",
-        "ownerName": "Messi Pele",
-        "document": "26.810.612/0001-33",
-        "coverageArea": {
+        {
             "type": "MultiPolygon",
             "coordinates": [
                 [
@@ -4379,19 +4285,7 @@
                 ]
             ]
         },
-        "address": {
-            "type": "Point",
-            "coordinates": [
-                -43.961945,
-                -19.927483
-            ]
-        }
-    },
-    {
-        "tradingName": "Bar Nem Tanto",
-        "ownerName": "Pele Maradona",
-        "document": "27494912000113",
-        "coverageArea": {
+        {
             "type": "MultiPolygon",
             "coordinates": [
                 [
@@ -4440,19 +4334,7 @@
                 ]
             ]
         },
-        "address": {
-            "type": "Point",
-            "coordinates": [
-                -49.383804,
-                -20.82054
-            ]
-        }
-    },
-    {
-        "tradingName": "Mercado Pinheiros",
-        "ownerName": "Joao Maradona",
-        "document": "27865490000145",
-        "coverageArea": {
+        {
             "type": "MultiPolygon",
             "coordinates": [
                 [
@@ -4537,19 +4419,7 @@
                 ]
             ]
         },
-        "address": {
-            "type": "Point",
-            "coordinates": [
-                -43.24797,
-                -22.916143
-            ]
-        }
-    },
-    {
-        "tradingName": "Adega Ambev",
-        "ownerName": "Pele da Silva",
-        "document": "36211693850",
-        "coverageArea": {
+        {
             "type": "MultiPolygon",
             "coordinates": [
                 [
@@ -4774,19 +4644,7 @@
                 ]
             ]
         },
-        "address": {
-            "type": "Point",
-            "coordinates": [
-                -45.853745,
-                -23.182152
-            ]
-        }
-    },
-    {
-        "tradingName": "Ze da Ambev",
-        "ownerName": "Daniboy",
-        "document": "54321515000112",
-        "coverageArea": {
+        {
             "type": "MultiPolygon",
             "coordinates": [
                 [
@@ -5035,19 +4893,7 @@
                 ]
             ]
         },
-        "address": {
-            "type": "Point",
-            "coordinates": [
-                -46.563892,
-                -23.509415
-            ]
-        }
-    },
-    {
-        "tradingName": "Bar do Ze",
-        "ownerName": "Daniel Henrique",
-        "document": "62638527000101",
-        "coverageArea": {
+        {
             "type": "MultiPolygon",
             "coordinates": [
                 [
@@ -5260,19 +5106,7 @@
                 ]
             ]
         },
-        "address": {
-            "type": "Point",
-            "coordinates": [
-                -46.563892,
-                -23.509415
-            ]
-        }
-    },
-    {
-        "tradingName": "Bar Legal",
-        "ownerName": "Eduardo Pedroso",
-        "document": "73.068.991/0001-18",
-        "coverageArea": {
+        {
             "type": "MultiPolygon",
             "coordinates": [
                 [
@@ -5393,19 +5227,7 @@
                 ]
             ]
         },
-        "address": {
-            "type": "Point",
-            "coordinates": [
-                -46.772907,
-                -23.528173
-            ]
-        }
-    },
-    {
-        "tradingName": "Adega Emporio",
-        "ownerName": "Eduardo Piroco",
-        "document": "82.666.231/0001-01",
-        "coverageArea": {
+        {
             "type": "MultiPolygon",
             "coordinates": [
                 [
@@ -5434,19 +5256,7 @@
                 ]
             ]
         },
-        "address": {
-            "type": "Point",
-            "coordinates": [
-                -67.81702,
-                -9.970223
-            ]
-        }
-    },
-    {
-        "tradingName": "Adega do Joao",
-        "ownerName": "Pele Maradona",
-        "document": "960361.506-44",
-        "coverageArea": {
+        {
             "type": "MultiPolygon",
             "coordinates": [
                 [
@@ -5546,13 +5356,6 @@
                     ]
                 ]
             ]
-        },
-        "address": {
-            "type": "Point",
-            "coordinates": [
-                -44.012478,
-                -19.887215
-            ]
         }
-    }
-]
+    ]
+}
