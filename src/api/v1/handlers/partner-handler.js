@@ -16,6 +16,7 @@ const getByPosition = async (long, lat) => {
     }
 
     let partner = undefined;
+    let distanceMin = Number.MAX_SAFE_INTEGER;
 
     partners.forEach(partnerPosition => {
         const coordinates = partnerPosition.address.coordinates;
@@ -23,9 +24,8 @@ const getByPosition = async (long, lat) => {
         const to = turf.point([coordinates[0], coordinates[1]]);
         const distance = turf.distance(from, to);
 
-        let distanceGreater = 0;
-        if (distance > distanceGreater) {
-            distanceGreater = distance;
+        if (distance < distanceMin) {
+            distanceMin = distance;
             partner = partnerPosition;
         }
     });
