@@ -13,6 +13,6 @@ app.use(bodyParser.urlencoded({ extended: false }));
 
 const partnerRoute = require('./api/v1/routes/partner-route');
 
-app.use('/api/v1/partners/', partnerRoute);
+app.use('/api/v1/partners', partnerRoute);
 
 module.exports = app;

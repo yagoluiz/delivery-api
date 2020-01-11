@@ -5,14 +5,62 @@ const cnpj = require('cnpj');
 const geojson = require("geojson-validation");
 const repository = require('../repositories/partner-repository');
 
+const uuidValidator = [
+    validator.param('id')
+        .notEmpty()
+        .withMessage('Field required')
+        .custom(async value => {
+            if (!value) {
+                return;
+            }
+
+            const regex = new RegExp('^[0-9a-fA-F]{24}$');
+            const isUUID = regex.test(value);
+            if (!isUUID) {
+                throw new Error('Id format invalid');
+            }
+
+            return true;
+        })
+];
+
+const positionValidator = [
+    validator.param('long')
+        .isNumeric()
+        .withMessage('Field invalid')
+        .custom(async value => {
+            if (!value) {
+                return;
+            }
+
+            if (value < -180 || value > 180) {
+                throw new Error('long invalid');
+            }
+
+            return true;
+        }),
+    validator.param('lat')
+        .isNumeric()
+        .withMessage('Field invalid')
+        .custom(async value => {
+            if (!value) {
+                return;
+            }
+
+            if (value < -90 || value > 90) {
+                throw new Error('lat invalid');
+            }
+        })
+];
+
 const partnerValidator = [
-    validator.check('tradingName')
+    validator.body('tradingName')
         .notEmpty()
         .withMessage('Field required'),
-    validator.check('ownerName')
+    validator.body('ownerName')
         .notEmpty()
         .withMessage('Field required'),
-    validator.check('document')
+    validator.body('document')
         .notEmpty()
         .withMessage('Field required')
         .custom(async value => {
@@ -32,7 +80,7 @@ const partnerValidator = [
 
             return true;
         }),
-    validator.check('coverageArea')
+    validator.body('coverageArea')
         .notEmpty()
         .withMessage('Field required')
         .custom(value => {
@@ -47,7 +95,7 @@ const partnerValidator = [
 
             return true;
         }),
-    validator.check('address')
+    validator.body('address')
         .notEmpty()
         .withMessage('Field required')
         .custom(value => {
@@ -64,4 +112,8 @@ const partnerValidator = [
         })
 ];
 
-module.exports = partnerValidator;
+module.exports = {
+    uuidValidator,
+    positionValidator,
+    partnerValidator
+};

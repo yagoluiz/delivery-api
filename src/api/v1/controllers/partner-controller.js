@@ -4,13 +4,15 @@ const validator = require('express-validator');
 const handler = require('../handlers/partner-handler');
 
 const getById = async (req, res) => {
-    //TODO: validation UUID
-    const id = req.params.id;
+    const errors = validator.validationResult(req);
 
-    if (!id) {
-        return res.status(400).send();
+    if (!errors.isEmpty()) {
+        return res.status(400).send({
+            errors: errors.array()
+        });
     }
 
+    const id = req.params.id;
     const partner = await handler.getById(id);
 
     if (!partner) {
@@ -21,14 +23,16 @@ const getById = async (req, res) => {
 };
 
 const getByPosition = async (req, res) => {
-    //TODO: validation longlat
-    const long = req.params.long;
-    const lat = req.params.lat;
+    const errors = validator.validationResult(req);
 
-    if (!long || !lat) {
-        return res.status(400).send();
+    if (!errors.isEmpty()) {
+        return res.status(400).send({
+            errors: errors.array()
+        });
     }
 
+    const long = req.params.long;
+    const lat = req.params.lat;
     const partner = await handler.getByPosition(long, lat);
 
     if (!partner) {
@@ -39,20 +43,17 @@ const getByPosition = async (req, res) => {
 };
 
 const post = async (req, res) => {
-    const data = req.body;
-
-    if (!data) {
-        return res.status(400).send();
-    }
-
     const errors = validator.validationResult(req);
+
     if (!errors.isEmpty()) {
         return res.status(400).send({
             errors: errors.array()
         });
     }
 
+    const data = req.body;
     const partner = await handler.post(data);
+
     res.status(201).send(partner);
 };
 
