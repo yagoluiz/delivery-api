@@ -9,7 +9,8 @@ const connect = () => {
             useNewUrlParser: true,
             useUnifiedTopology: true,
             useCreateIndex: true
-        }).then(_ => {
+        })
+        .then(_ => {
             console.log('MongoDB connect');
         })
         .catch(error => {

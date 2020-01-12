@@ -11,8 +11,12 @@ const getById = async (id) => {
 const getByPosition = async (long, lat) => {
     const partners = await repository.getAllPositions(long, lat);
 
-    if (!partners) {
+    if (partners.length == 0) {
         return;
+    }
+
+    if (partners.length == 1) {
+        return partners[0];
     }
 
     let partner = undefined;
