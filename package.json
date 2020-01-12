@@ -6,6 +6,7 @@
   "scripts": {
     "start": "node ./bin/server.js",
     "dev": "nodemon ./bin/server.js",
+    "lint": "eslint **/*.js",
     "test": "jest"
   },
   "jest": {
@@ -28,15 +29,23 @@
     "@turf/turf": "^5.1.6",
     "body-parser": "^1.19.0",
     "cnpj": "^3.0.0",
+    "eslint-plugin-node": "^11.0.0",
     "express": "^4.17.1",
     "express-validator": "^6.3.1",
     "geojson-validation": "^0.2.1",
     "mongoose": "^5.8.5",
-    "mongoose-geojson-schemas": "^0.11.0"
+    "mongoose-geojson-schemas": "^0.11.0",
+    "simple-node-logger": "^18.12.23"
   },
   "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-config-node": "^4.0.0",
+    "eslint-config-prettier": "^6.9.0",
+    "eslint-plugin-prettier": "^3.1.2",
     "jest": "^24.9.0",
     "nodemon": "^2.0.2",
+    "prettier": "^1.19.1",
     "supertest": "^4.0.2"
   }
 }

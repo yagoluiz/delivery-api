@@ -1,7 +1,6 @@
-'use strict';
-
+const logger = require('simple-node-logger').createSimpleLogger();
 const app = require('../src/app');
 
 const port = process.env.PORT || 3000;
 
-app.listen(port, () => console.log(`API listening on port => ${port}`));
+app.listen(port, () => logger.info(`API listening on port => ${port}`));
