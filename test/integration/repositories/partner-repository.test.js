@@ -13,11 +13,11 @@ describe('partner repository tests', () => {
     beforeAll(() => {
         document = '95.221.283/0001-08';
         partner = {
-            tradingName: "Bar do Zé",
-            ownerName: "João Silva",
+            tradingName: 'Bar do Zé',
+            ownerName: 'João Silva',
             document: document,
             coverageArea: {
-                type: "MultiPolygon",
+                type: 'MultiPolygon',
                 coordinates: [
                     [
                         [
@@ -150,7 +150,7 @@ describe('partner repository tests', () => {
                 ]
             },
             address: {
-                type: "Point",
+                type: 'Point',
                 coordinates: [
                     -46.693768,
                     -23.569365

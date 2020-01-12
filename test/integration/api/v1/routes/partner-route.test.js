@@ -13,11 +13,11 @@ describe('partner routes tests', () => {
     beforeAll(() => {
         document = '99.163.258/0001-76';
         partner = {
-            tradingName: "Adega da Cerveja - Pinheiros",
-            ownerName: "Zé da Silva",
+            tradingName: 'Adega da Cerveja - Pinheiros',
+            ownerName: 'Zé da Silva',
             document: document,
             coverageArea: {
-                type: "MultiPolygon",
+                type: 'MultiPolygon',
                 coordinates: [
                     [
                         [
@@ -70,7 +70,7 @@ describe('partner routes tests', () => {
                 ]
             },
             address: {
-                type: "Point",
+                type: 'Point',
                 coordinates: [
                     -43.432034,
                     -22.747707
@@ -159,7 +159,7 @@ describe('partner routes tests', () => {
 
         test('should not create partner param coverageArea invalid', async () => {
             partner.coverageArea = {
-                type: "MultiPolygon",
+                type: 'MultiPolygon',
                 coordinates: [
                     -46.57421,
                     -21.785741
@@ -175,7 +175,7 @@ describe('partner routes tests', () => {
 
         test('should not create partner param address invalid', async () => {
             partner.address = {
-                type: "Point",
+                type: 'Point',
                 coordinates: [
                     [
                         [
