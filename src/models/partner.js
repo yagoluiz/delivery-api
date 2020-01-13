@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const GeoJSON = require('mongoose-geojson-schemas');
+const geojson = require('mongoose-geojson-schemas');
 
 const PartnerSchema = new mongoose.Schema(
   {
@@ -16,8 +16,8 @@ const PartnerSchema = new mongoose.Schema(
       required: true,
       unique: true
     },
-    coverageArea: GeoJSON.MultiPolygon,
-    address: GeoJSON.Point
+    coverageArea: geojson.MultiPolygon,
+    address: geojson.Point
   },
   {
     versionKey: false

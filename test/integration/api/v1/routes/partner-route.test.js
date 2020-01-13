@@ -154,7 +154,7 @@ describe('partner routes tests', () => {
       expect(res.body).toHaveProperty('errors');
     });
 
-    test('should get partner by id not found id UUID param', async () => {
+    test('should get partner by id not found UUID param', async () => {
       const partnerId = 'FFFFFFFFFFFFFFFFFFFFFFFF';
       const res = await request(app)
         .get(`/api/v1/partners/${partnerId}`)

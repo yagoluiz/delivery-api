@@ -33,7 +33,6 @@ const getByPosition = async (long, lat) => {
       partner = partnerPosition;
     }
   });
-
   return partner;
 };
 

@@ -1,4 +1,4 @@
-### Get partner by id
+### Get partner by id (use id existing in database)
 
 GET http://localhost:3000/api/v1/partners/5e1bad71f7453d258c6f62f5 HTTP/1.1
 content-type: application/json

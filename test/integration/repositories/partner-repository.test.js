@@ -69,7 +69,7 @@ describe('partner repository tests', () => {
   describe('tests partner return', () => {
     let partnerId = 0;
 
-    test('should create partners to equal properties', async () => {
+    test('should create partner to equal properties', async () => {
       const result = await repository.post(partner);
 
       partnerId = result._id;

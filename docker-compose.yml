@@ -10,13 +10,13 @@ services:
     depends_on:
       - mongodb
     networks:
-      - delivery-network
+      - delivery
   mongodb:
     image: mongo
     ports:
       - '27017:27017'
     networks:
-      - delivery-network
+      - delivery
   mongo_seed:
     image: mongo
     volumes:
@@ -25,7 +25,7 @@ services:
     depends_on:
       - mongodb
     networks:
-      - delivery-network
+      - delivery
 networks:
-  delivery-network:
+  delivery:
     driver: bridge

@@ -103,7 +103,7 @@ describe('partner handlers tests', () => {
     expect(result._id).toBe('5e1a74b479938561a08e225c');
   });
 
-  describe('partner by positon minimum', () => {
+  describe('partner by position minimum', () => {
     const partners = [
       {
         _id: '5e1a74b479938561a08e225c',
