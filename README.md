@@ -1,5 +1,7 @@
 # Delivery API
 
+![](https://github.com/yagoluiz/delivery-api/workflows/Docker%20Image%20CI/badge.svg)
+
 Beverage Delivery API, responsible for reporting or nearest point of delivery via geolocation.
 
 ## Data information
