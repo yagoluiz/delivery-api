@@ -2,7 +2,7 @@
 
 ![](https://github.com/yagoluiz/delivery-api/workflows/Docker%20Image%20CI/badge.svg)
 
-Beverage Delivery API, responsible for reporting or nearest point of delivery via geolocation.
+Beverage delivery API, responsible for reporting or nearest point of delivery via geolocation.
 
 ## Data information
 
@@ -40,6 +40,6 @@ or
 
 The **endpoints.http** file has the API endpoints.
 
-In VS Code, install the [REST Client](https://marketplace.visualstudio.com/items?itemName=humao.rest-client) extension to run the tests.
+In VS Code, install [REST Client](https://marketplace.visualstudio.com/items?itemName=humao.rest-client) extension to run the tests.
 
 Otherwise, execute the endpoints on the desired tool.
